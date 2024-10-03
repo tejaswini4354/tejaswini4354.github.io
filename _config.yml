@@ -41,38 +41,31 @@ about_content: | # this will include new lines to allow paragraphs
 As an AI enthusiast and current student with over 5 years of experience in data science and ML, I seek roles that challenge and leverage my skills in AI innovations. Keen to apply my learning in a dynamic environment, I aim to drive impact through technology.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Boom
+        sub_title: AI Developer (Summer Internship)
+        caption: May 2024 - Aug 2024
+        link: https://www.thewealthboom.com/
         quote: >
-          Short description of the company (optional)
+          AI-Powered Business Succession Platform
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Developed and deployed a robust valuation tool that extracts key financial data and business descriptions from documents, providing comprehensive valuations by identifying comparable transactions for similar businesses
+          Created and implemented a buyer search platform that intelligently matches businesses to prospective buyers based on detailed buyer profiles and business characteristics
+      - layout: right
+        title: Merilytics (now Accordion)
+        sub_title: Lead Data Scientist
+        caption: Oct 2022 - Jul 2023
+        link: https://www.accordion.com/
+        quote: >
+          Business Management Consultant
+        description: | # this will include new lines to allow paragraphs
+          Oversaw data procurement in Azure for a $200M+ legal firm, combining UiPath (RPA) with trained ML models to enhance data quality and gain insights
+          Autonomously created a custom tool for our internal leadership team that harnesses BERT and TensorFlow to perform Sentiment Analysis on client emails and extract insights into client sentiment across different topics
+          Crafted educational content and led training workshops for interns on Python, data analysis, and ML concepts
+          Spearheaded end-to-end MLOps management on the Azure platform for a variety of machine learning models, resulting in a notable 9% reduction in customer default rates for a finance firm
   - title: Education
     layout: list
     content:
