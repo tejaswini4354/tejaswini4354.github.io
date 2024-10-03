@@ -19,7 +19,6 @@ darkmode: false
 # Social links
 github_username:  tejaswini4354
 linkedin_username: junnuri-sai-tejaswini-849748147
-
 # Additional icon links
 additional_links:
 - title: Link name
@@ -37,7 +36,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: [alt text](/images/landscape-trees.jpg "Trees")
+about_profile_image: images/picture.jpeg
 about_content: | # this will include new lines to allow paragraphs
 As an AI enthusiast and current student with over 5 years of experience in data science and ML, I seek roles that challenge and leverage my skills in AI innovations. Keen to apply my learning in a dynamic environment, I aim to drive impact through technology.
 
