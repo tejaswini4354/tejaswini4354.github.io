@@ -37,15 +37,9 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/picture.jpeg
+about_profile_image: [alt text](/images/landscape-trees.jpg "Trees")
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+As an AI enthusiast and current student with over 5 years of experience in data science and ML, I seek roles that challenge and leverage my skills in AI innovations. Keen to apply my learning in a dynamic environment, I aim to drive impact through technology.
 
 content:
   - title: Projects # Title for the section
