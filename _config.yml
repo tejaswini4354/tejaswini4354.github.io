@@ -14,7 +14,7 @@ website: https://github.com/tejaswini4354
 # website_title: GitHub Profile
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 github_username: tejaswini4354
