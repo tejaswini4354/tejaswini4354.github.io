@@ -1,5 +1,5 @@
 # Site
-repository: tejaswini4354/modern-resume-theme
+repository: tejaswini4354/tejaswini4354.github.io
 # favicon: images/favicon.ico (optional)
 
 # Content configuration version
@@ -7,29 +7,18 @@ version: 2
 
 # Personal info
 name: Sai Tejaswini Junnuri
-title: AI Enthusiast | Data Scientist
+title: AI Enthusiast | Data Scientist | Machine Learning Engineer
 email: saitejaswinijunnuri@gmail.com
 phone: 857-961-7174
 website: https://github.com/tejaswini4354
 # website_title: GitHub Profile
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: ""
 github_username: tejaswini4354
-stackoverflow_username: ""
-dribbble_username: ""
-facebook_username: ""
-flickr_username: ""
-instagram_username: ""
 linkedin_username: junnuri-sai-tejaswini-849748147
-xing_username: ""
-pinterest_username: ""
-youtube_username: ""
-orcid_username: ""
-googlescholar_username: ""
 
 # Additional icon links
 additional_links:
@@ -49,11 +38,73 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_profile_image: images/profile.jpg
+about_profile_image: images/picture.jpeg
 about_content: |
-  I am an AI enthusiast and graduate student with over five years of experience in data science, machine learning, and AI development. My expertise spans natural language processing, computer vision, and predictive analytics, and I have successfully delivered impactful solutions for businesses across various industries. From deploying machine learning models to driving innovation with large language models, I thrive in dynamic environments that challenge my problem-solving abilities. My passion lies in using AI to enhance decision-making processes, develop innovative tools, and deliver meaningful insights. I am eager to contribute to cutting-edge projects that push the boundaries of technology.
-
+    As an AI enthusiast and a current graduate student with over five years of experience in data science and machine learning, I am deeply committed to leveraging my skills to solve complex challenges in AI and technology. My hands-on experience spans a diverse range of projects, including natural language processing, computer vision, and predictive analytics, where I have contributed to impactful solutions for businesses across industries. I have worked extensively on deploying machine learning models into production, using MLOps practices to ensure scalability and reliability. My passion lies in applying advanced AI techniques, such as large language models and neural networks, to drive innovation and enhance decision-making processes. Throughout my career, I’ve demonstrated the ability to lead teams, build robust solutions, and develop tools that deliver real-time insights, improving efficiency and reducing costs. Eager to continue growing, I am excited about opportunities that challenge my problem-solving skills and contribute to cutting-edge AI advancements that create a lasting impact on both businesses and society.
+    
 content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Boom
+        sub_title: AI Developer Intern
+        caption: May 2024 – Aug 2024
+        description: |
+          - Developed and deployed a valuation tool that extracts key financial data and business descriptions from documents, providing comprehensive valuations by identifying comparable transactions for similar businesses
+          - Created a buyer search platform that matches businesses to buyers based on detailed profiles, enhancing business transactions
+        
+      - layout: right
+        title: Merilytics
+        sub_title: Lead Data Scientist
+        caption: Oct 2022 – Jul 2023
+        description: |
+          - Led data procurement in Azure for a $200M+ legal firm, combining UiPath (RPA) with ML models to enhance data quality
+          - Developed tools for sentiment analysis using BERT and TensorFlow to gain client insights and reduce customer default rates by 9% for a finance firm
+          - Spearheaded end-to-end MLOps management on Azure for multiple machine learning models
+
+      - layout: right
+        title: Merilytics
+        sub_title: Associate Data Scientist
+        caption: Apr 2021 – Sep 2022
+        description: |
+          - Implemented Markov Chain-based marketing channel attribution, resulting in a 7% reduction in cost per conversion
+          - Utilized Mask R-CNN to assess space utilization efficiency by analyzing images for a trucking company
+          - Developed and deployed a versatile time-series forecasting tool in AWS featuring data handling, outlier detection, and hierarchical forecasting
+          
+      - layout: right
+        title: Merilytics
+        sub_title: Data Scientist
+        caption: Jun 2019 – Mar 2021
+        description: |
+          - Deployed a custom neural network to accurately estimate property valuations for a global real estate firm, achieving a MAPE under 12%
+          - Implemented an Encoder-Decoder Neural Network architecture for credit card fraud detection, achieving an impressive accuracy rate of 85% using transactional data
+          - Conducted Cash Flow Prediction for a point-of-sale financier by applying Monte Carlo Simulation techniques, yielding an accuracy with a MAPE of less than 15%
+
+      - layout: right
+        title: Auquan
+        sub_title: Data Science Intern
+        caption: Jun 2018 – Dec 2018
+        description: |
+          - Developed an open-source Python package (auquan-toolbox) used to create and back-test trading strategies. Integrated unit tests for various financial instruments in the package
+  
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Boston University
+        sub_title: MS in Artificial Intelligence (3.9/4 GPA)
+        caption: Sep 2023 – Dec 2024
+        description: |
+          Relevant coursework: Advanced Computer Vision, Natural Language Processing, Artificial Intelligence, Image and Video Computing, Reinforcement Learning, Deep Learning, Machine Learning
+          
+      - layout: top-right
+        title: Birla Institute of Technology and Sciences, Hyderabad
+        sub_title: B.E.(Hons.) in Computer Science
+        caption: Aug 2015 – May 2019
+        description: |
+          Relevant coursework: Data Structures, Algorithms, Machine Learning, and Deep Learning
+
   - title: Projects
     layout: list
     content:
@@ -81,51 +132,6 @@ content:
         description: |
           Fine-tuned Mistral LLM for personalized movie recommendations on the MovieLens dataset. Enhanced prediction accuracy by integrating binary ratings and genre information to significantly improve personalized recommendation quality.
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Boom
-        sub_title: AI Developer Intern
-        caption: May 2024 – Aug 2024
-        description: |
-          - Developed and deployed a valuation tool that extracts key financial data and business descriptions from documents, providing comprehensive valuations by identifying comparable transactions for similar businesses.
-          - Created a buyer search platform that matches businesses to buyers based on detailed profiles, enhancing business transactions.
-        
-      - layout: right
-        title: Merilytics
-        sub_title: Lead Data Scientist
-        caption: Oct 2022 – Jul 2023
-        description: |
-          - Led data procurement in Azure for a $200M+ legal firm, combining UiPath (RPA) with ML models to enhance data quality.
-          - Developed tools for sentiment analysis using BERT and TensorFlow to gain client insights and reduce customer default rates by 9% for a finance firm.
-          - Spearheaded end-to-end MLOps management on Azure for multiple machine learning models.
-
-      - layout: right
-        title: Merilytics
-        sub_title: Associate Data Scientist
-        caption: Apr 2021 – Sep 2022
-        description: |
-          - Implemented Markov Chain-based marketing channel attribution, resulting in a 7% reduction in cost per conversion.
-          - Utilized Mask R-CNN to assess space utilization efficiency by analyzing images for a trucking company.
-          - Developed and deployed a versatile time-series forecasting tool in AWS featuring data handling, outlier detection, and hierarchical forecasting.
-
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Boston University
-        sub_title: MS in Artificial Intelligence
-        caption: Sep 2023 – Dec 2024
-        description: |
-          Relevant coursework: Natural Language Processing, Artificial Intelligence, Image and Video Computing, Reinforcement Learning, Deep Learning, Machine Learning.
-          
-      - layout: top-right
-        title: Birla Institute of Technology and Sciences, Hyderabad
-        sub_title: B.E.(Hons.) in Computer Science
-        caption: Aug 2015 – May 2019
-        description: |
-          Relevant coursework: Data Structures, Algorithms, Machine Learning, and Deep Learning.
 
   - title: A Little More About Me
     layout: text
@@ -133,7 +139,7 @@ content:
       I am passionate about AI innovations and enjoy solving complex problems. In my spare time, I like to explore new AI techniques, contribute to open-source projects, and continuously learn about advancements in machine learning and AI-driven technology.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
