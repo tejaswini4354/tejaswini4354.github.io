@@ -1,95 +1,144 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: tejaswini4354/modern-resume-theme
+# favicon: images/favicon.ico (optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Sai Tejaswini Junnuri
+title: AI Enthusiast | Data Scientist
 email: saitejaswinijunnuri@gmail.com
-# email_title: Email (Email title override)
-phone: 8579617174
-# phone_title: Phone (Phone title override)
-# website_title: Web (Website title override)
+phone: 857-961-7174
+website: https://github.com/tejaswini4354
+# website_title: GitHub Profile
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
-github_username:  tejaswini4354
+twitter_username: ""
+github_username: tejaswini4354
+stackoverflow_username: ""
+dribbble_username: ""
+facebook_username: ""
+flickr_username: ""
+instagram_username: ""
 linkedin_username: junnuri-sai-tejaswini-849748147
+xing_username: ""
+pinterest_username: ""
+youtube_username: ""
+orcid_username: ""
+googlescholar_username: ""
+
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+  - title: Credly Badge
+    icon: fab fa-credly
+    url: https://www.credly.com/badges/683f0593-883a-4062-9684-0280762b1094/linked_in_profile
+  - title: Ovarian Cancer Classification Project
+    icon: fab fa-github
+    url: https://github.com/tejaswini4354/OvarianCancerClassification
+  - title: LLM Movie Recommender Project
+    icon: fab fa-github
+    url: https://github.com/Exorust/LLM-movie-recommender
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/picture.jpeg
-about_content: As an AI enthusiast and current student with over 5 years of experience in data science and ML, I seek roles that challenge and leverage my skills in AI innovations. Keen to apply my learning in a dynamic environment, I aim to drive impact through technology.
+about_profile_image: images/profile.jpg
+about_content: |
+  I am an AI enthusiast and graduate student with over five years of experience in data science, machine learning, and AI development. My expertise spans natural language processing, computer vision, and predictive analytics, and I have successfully delivered impactful solutions for businesses across various industries. From deploying machine learning models to driving innovation with large language models, I thrive in dynamic environments that challenge my problem-solving abilities. My passion lies in using AI to enhance decision-making processes, develop innovative tools, and deliver meaningful insights. I am eager to contribute to cutting-edge projects that push the boundaries of technology.
 
 content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Ovarian Cancer Classification
+        link: https://github.com/tejaswini4354/OvarianCancerClassification
+        link_text: View Project
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/tejaswini4354/OvarianCancerClassification
+        description: |
+          Developed and optimized a ResNet 101 model for ovarian cancer subtype classification using histopathology images from over 20 medical centers. Implemented advanced data augmentation techniques like CutMix and MixUp to address class imbalance and enhance model generalizability.
+
+      - layout: left
+        border: weak
+        title: LLM Movie Recommender
+        link: https://github.com/Exorust/LLM-movie-recommender
+        link_text: View Project
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/Exorust/LLM-movie-recommender
+        description: |
+          Fine-tuned Mistral LLM for personalized movie recommendations on the MovieLens dataset. Enhanced prediction accuracy by integrating binary ratings and genre information to significantly improve personalized recommendation quality.
+
   - title: Experience
     layout: list
     content:
       - layout: right
         title: Boom
-        sub_title: AI Developer (Summer Internship)
-        caption: May 2024 - Aug 2024
-        link: https://www.thewealthboom.com/
-        quote: >
-          AI-Powered Business Succession Platform
-        description: | # this will include new lines to allow paragraphs
-          Developed and deployed a robust valuation tool that extracts key financial data and business descriptions from documents, providing comprehensive valuations by identifying comparable transactions for similar businesses
-          Created and implemented a buyer search platform that intelligently matches businesses to prospective buyers based on detailed buyer profiles and business characteristics
+        sub_title: AI Developer Intern
+        caption: May 2024 – Aug 2024
+        description: |
+          - Developed and deployed a valuation tool that extracts key financial data and business descriptions from documents, providing comprehensive valuations by identifying comparable transactions for similar businesses.
+          - Created a buyer search platform that matches businesses to buyers based on detailed profiles, enhancing business transactions.
+        
       - layout: right
-        title: Merilytics (now Accordion)
+        title: Merilytics
         sub_title: Lead Data Scientist
-        caption: Oct 2022 - Jul 2023
-        link: https://www.accordion.com/
-        quote: >
-          Business Management Consultant
-        description: | # this will include new lines to allow paragraphs
-          Oversaw data procurement in Azure for a $200M+ legal firm, combining UiPath (RPA) with trained ML models to enhance data quality and gain insights
-          Autonomously created a custom tool for our internal leadership team that harnesses BERT and TensorFlow to perform Sentiment Analysis on client emails and extract insights into client sentiment across different topics
-          Crafted educational content and led training workshops for interns on Python, data analysis, and ML concepts
-          Spearheaded end-to-end MLOps management on the Azure platform for a variety of machine learning models, resulting in a notable 9% reduction in customer default rates for a finance firm
+        caption: Oct 2022 – Jul 2023
+        description: |
+          - Led data procurement in Azure for a $200M+ legal firm, combining UiPath (RPA) with ML models to enhance data quality.
+          - Developed tools for sentiment analysis using BERT and TensorFlow to gain client insights and reduce customer default rates by 9% for a finance firm.
+          - Spearheaded end-to-end MLOps management on Azure for multiple machine learning models.
+
+      - layout: right
+        title: Merilytics
+        sub_title: Associate Data Scientist
+        caption: Apr 2021 – Sep 2022
+        description: |
+          - Implemented Markov Chain-based marketing channel attribution, resulting in a 7% reduction in cost per conversion.
+          - Utilized Mask R-CNN to assess space utilization efficiency by analyzing images for a trucking company.
+          - Developed and deployed a versatile time-series forecasting tool in AWS featuring data handling, outlier detection, and hierarchical forecasting.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+        title: Boston University
+        sub_title: MS in Artificial Intelligence
+        caption: Sep 2023 – Dec 2024
+        description: |
+          Relevant coursework: Natural Language Processing, Artificial Intelligence, Image and Video Computing, Reinforcement Learning, Deep Learning, Machine Learning.
+          
+      - layout: top-right
+        title: Birla Institute of Technology and Sciences, Hyderabad
+        sub_title: B.E.(Hons.) in Computer Science
+        caption: Aug 2015 – May 2019
+        description: |
+          Relevant coursework: Data Structures, Algorithms, Machine Learning, and Deep Learning.
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    content: |
+      I am passionate about AI innovations and enjoy solving complex problems. In my spare time, I like to explore new AI techniques, contribute to open-source projects, and continuously learn about advancements in machine learning and AI-driven technology.
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -98,7 +147,7 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -109,4 +158,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
