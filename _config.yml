@@ -20,18 +20,6 @@ darkmode: never
 github_username: tejaswini4354
 linkedin_username: junnuri-sai-tejaswini-849748147
 
-# Additional icon links
-additional_links:
-  - title: Credly Badge
-    icon: fab fa-credly
-    url: https://www.credly.com/badges/683f0593-883a-4062-9684-0280762b1094/linked_in_profile
-  - title: Ovarian Cancer Classification Project
-    icon: fab fa-github
-    url: https://github.com/tejaswini4354/OvarianCancerClassification
-  - title: LLM Movie Recommender Project
-    icon: fab fa-github
-    url: https://github.com/Exorust/LLM-movie-recommender
-
 # Google Analytics and Tag Manager
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
